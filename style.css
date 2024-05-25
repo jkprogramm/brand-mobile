@@ -1,0 +1,134 @@
+img{
+    max-width: 100%;
+    height: auto;
+    background: lightblue;
+    background: radial-gradient(white 30%, lightblue 70%);
+}
+
+.fa-star,
+.fa-star-half{
+    color: yellowgreen;
+    padding: 3% 0;
+}
+
+#cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+    position: absolute;
+    right: 20px;
+}
+
+.shopping-cart{
+    padding: 3% 0;
+}
+
+.cart-items + .cart-items{
+    padding: 2% 0;
+}
+
+.price-details h6{
+    padding: 3% 2%;
+}
+.logotip{
+   width: 11%;
+   background: none;
+}
+@media only screen and (max-width:992px){
+    #cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+    position: relative;
+    margin-left: 25px;
+}
+ .logotip{
+    width: 18%;
+    float: right;
+    top: 13px;
+    display: none;
+    left: 20px;
+    position: absolute;
+    }
+}
+
+@media only screen and (max-width:768px){
+    .logotip{
+    width: 18%;
+    float: right;
+    top: 13px;
+    display: none;
+    left: 20px;
+    position: absolute;
+    }
+    #cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+    position: relative;
+    margin-left: 25px;}
+}
+
+
+@media only screen and (max-width:600px){
+    .logotip{
+        width: 18%;
+    float: right;
+    top: 13px;
+    left: 20px;
+    display: none;
+    position: absolute;
+    }
+    .navbar{
+        padding: 20px;
+    }
+    .nav-item{
+        position: relative;
+        right: 50px;
+        top:22px;
+    }
+    #cart_count{
+    text-align: center;
+    padding: 0 0.9rem 0.1rem 0.9rem;
+    border-radius: 3rem;
+    position: relative;
+    margin-left: 25px;
+}
+
+}
+.btn-warning{
+    background:#0f2834;
+    color: white;
+    border-color: white;
+}
+.btn-warning:hover{
+    background:#e91e63;
+    color: white;
+    border-color: white;
+}
+.footer{
+    background: #0f2834;
+   
+    color: white;
+}
+.float{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:70px;
+    right:40px;
+    background-color:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+  font-size:30px;
+    box-shadow: 2px 2px 3px #999;
+  z-index:100;
+}
+
+.my-float{
+    margin-top:16px;
+}
+
+
+
